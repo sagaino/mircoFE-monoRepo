@@ -1,6 +1,6 @@
 import { Shell } from 'ui';
 import './App.css';
-import { TopNumber } from './TopNumber';
+import TopNumber from './TopNumber';
 
 function App() {
   return (

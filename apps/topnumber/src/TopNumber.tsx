@@ -5,7 +5,7 @@ import { useAppShell } from "ui";
 
 const pickNumber = () => Math.ceil(Math.random() * 10) + 2;
 
-export const TopNumber = () => {
+const TopNumber = () => {
   const [topNumber, setTopNumber] = useState<number>(0);
   const [playing, setPlaying] = useState<boolean>(false);
   const [currentValue, setCurrentValue] = useState<number>(0);
@@ -65,3 +65,5 @@ export const TopNumber = () => {
     </Paper>
   );
 };
+
+export default TopNumber;

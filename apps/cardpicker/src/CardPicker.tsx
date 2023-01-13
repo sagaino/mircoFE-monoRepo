@@ -70,4 +70,4 @@ const CardPicker = () => {
   );
 };
 
-export { CardPicker };
+export default CardPicker;
